@@ -1,0 +1,9 @@
+<!doctype>
+<html>
+<head>Pirmasis puslapis</head>
+<body>
+<h1>Antraštė</h1>
+<p>Visas pilnas tekstas turi būti čia</p>
+<p>Pati pati pradžia</p>
+</body>
+</html>
