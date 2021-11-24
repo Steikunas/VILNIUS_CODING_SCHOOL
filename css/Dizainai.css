@@ -1,0 +1,49 @@
+div.Static {display: inline;
+background-color: grey;
+    border-style: groove;
+    position: static;
+    left: 50px;
+    top: 50px;
+
+}
+div.Absolute {display: inline;
+    background-color: Pink;
+    border-style: groove;
+    position: absolute;
+    left: 50px;
+    top: 1150px;
+
+}
+div.Relative {
+    display: block;
+    background-color: Yellow;
+    border-style: groove;
+    position: Relative;
+    left: 50px;
+    top: 50px;
+}
+div.Fixed {
+    display: Block;
+    background-color: Green;
+    border-style: groove;
+    position: Fixed;
+    left: 200px;
+    top: 450px;
+}
+
+div.Relative2 {
+    display: Block;
+    background-color: Blue;
+    border-style: dotted;
+    position: Relative;
+    left: 200px;
+    top: 50px;
+}
+div.Absolute2 {
+    display: Block;
+    background-color: darkred;
+    border-style: dotted;
+    position: Absolute;
+    left: 200px;
+    top: 50px;
+}
