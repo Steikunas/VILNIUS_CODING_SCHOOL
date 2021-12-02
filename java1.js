@@ -1,15 +1,15 @@
-let a=1;
-let tekstas= 'kintamojo a reikšmė: ';
+let e=1;
+let tekstas= 'kintamojo e reikšmė: ';
 
-console.log(tekstas, a);
+console.log(tekstas, e);
 
-a=2;
-tekstas= 'kintamojo a reikšmė: ';
+e=2;
+tekstas= 'kintamojo e reikšmė: ';
 
-console.log(tekstas, a);
+console.log(tekstas, e);
 
-let b= 'Mano vardas';
-let c= 'Tomas Steikunas';
+let e= 'Mano vardas';
+let f= 'Tomas Steikunas';
 
 console.log(b, c);
 
@@ -23,3 +23,16 @@ r=15;
 pi=3.14;
 console.log(2*pi*r);
 console.log(r*r*pi);
+
+let a=3;
+let b=7;
+let c=5;
+let d=9;
+let answer;
+
+if ((c<b) && (c>a) && (d>b)) {answer = 'Rezis' + [c,b]}
+else if ((c<b) && (c<=a) && (d>b)) {answer ='Rezis' +  c,b}
+else if ((c<b) && (c>a) && (d<b)) {answer = 'Rezis' +  c , d}
+else if ((c<b) && (c<a) && (d<b)) {answer = 'Rezis' +  c , d}
+else if (c>b) {answer = 'Null'};
+console.log(answer);
