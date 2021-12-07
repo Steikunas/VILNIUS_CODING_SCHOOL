@@ -153,3 +153,21 @@ footer {
         display: block;
     }
 }
+
+.Komandos {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+.Komandos td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.Komandos tr:nth-child(even) {
+    background-color: lightyellow;
+}
+
+
