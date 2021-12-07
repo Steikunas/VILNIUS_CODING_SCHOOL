@@ -36,3 +36,12 @@ else if ((c<b) && (c>a) && (d<b)) {answer = 'Rezis' +  c , d}
 else if ((c<b) && (c<a) && (d<b)) {answer = 'Rezis' +  c , d}
 else if (c>b) {answer = 'Null'};
 console.log(answer);
+
+
+let x='Vardas';
+let y='Pavardė';
+let z='Kur mokosi';
+let w= '5,7,8,6,5,3';
+let atsakymas = x + y + z + w;
+document.getElementById("demo").innerHTML = 'atsakymas';
+
