@@ -17,11 +17,11 @@ function daugyba (a, b) {
 
 
     function manofunkcija() {
-    let result = document.getElementById("rezultatai");
-    for (let i=0; i < 5; i++)
-    {result.innerHTML+=sudetis(i, b);
-        result.innerHTML+=atimtis(i, b);
-        result.innerHTML+=daugyba(i, b);
-        result.innerHTML+=dalyba(i, b);}
-    }
+    let result = document.getElementById('rezultatai');
 
+    for (let i=0; i < 5; i++)
+    {result.innerHTML+=sudetis(i, b) +<br>
+        result.innerHTML+=atimtis(i, b); <br>
+        result.innerHTML+=daugyba(i, b) + <br>
+        result.innerHTML+=dalyba(i, b); }
+}
