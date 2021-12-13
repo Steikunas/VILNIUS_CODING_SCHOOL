@@ -38,6 +38,15 @@ foreach($ceu as $x => $x_value) {
     echo "<br>";
 }
 
+echo str_word_count("A");
+echo str_word_count($string = 'A', $format = 1, $characters = 'A');
+echo "<br>";
 
+foreach ($ceu as $char = “A”) {echo $char();};
 
+count_chars($ceu);
+foreach (count_chars('a', 1) as $i => $number) {
+    echo $i .'='. $number;
+    echo "<br>";
 
+}
