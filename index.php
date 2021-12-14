@@ -30,23 +30,33 @@ $ceu = [
 foreach ($ceu as $key => $value) {
     echo $key . '=' . $value . '<br/>';
 }
-
+echo '********************' . '<br/>';
 
 ksort ($ceu);
 foreach($ceu as $x => $x_value) {
     echo $x .'='. $x_value;
     echo "<br>";
 }
+echo '********************' . '<br/>';
 
-echo str_word_count("A");
-echo str_word_count($string = 'A', $format = 1, $characters = 'A');
-echo "<br>";
-
-foreach ($ceu as $char = “A”) {echo $char();};
-
-count_chars($ceu);
-foreach (count_chars('a', 1) as $i => $number) {
-    echo $i .'='. $number;
+asort ($ceu);
+for ($i = 0, $iMax = count ($ceu); $i < $iMax; $i += 2) {
+   $key = array_keys($ceu)[$i];
+$value = ($ceu)[$key];
+    echo $key . '=' . $value;
     echo "<br>";
-
 }
+echo '********************' . '<br/>';
+
+foreach ($ceu as $key => $value) {
+    if (
+        str_contains($key,'A') ||str_contains( $value, 'A' )
+    ) {
+        echo $key . '=' . $value;
+        echo "<br>";
+    }
+}
+echo '********************' . '<br/>';
+
+
+
