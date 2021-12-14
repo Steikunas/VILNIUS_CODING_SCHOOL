@@ -58,6 +58,17 @@ foreach ($ceu as $key => $value) {
 }
 echo '********************' . '<br/>';
 
+//atskirti masyvus per pusę ir juos išdėlioti inline
+sort ($ceu);
+for ($i = 0, $iMid = count($ceu)/2; $i < $iMid; $i ++) {
+    $key = array_keys($ceu)[$i];
+    $value = ($ceu)[$key];
+    echo $key . '=' . $value;
+    echo "<br>";}
+
+
+
+echo '********************' . '<br/>';
 
 include 'libs/konvertavimas.php';
 

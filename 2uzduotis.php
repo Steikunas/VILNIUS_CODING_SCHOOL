@@ -9,3 +9,5 @@ echo 'auksciausia temperatura'.' '. (max($masyvas));
 echo "<br>";
 
 
+
+
