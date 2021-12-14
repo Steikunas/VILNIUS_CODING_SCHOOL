@@ -59,4 +59,24 @@ foreach ($ceu as $key => $value) {
 echo '********************' . '<br/>';
 
 
+include 'libs/konvertavimas.php';
+
+include 'libs/matematika.php';
+
+echo '100 km yra lygu'. ' ' . konvertuoti(100, 'mylios').' mylių';
+
+echo '********************' . '<br/>';
+
+echo '100 kg yra lygu'. ' ' . konvertkg(100, 'svarai').' svarų';
+echo '<br/>';
+echo '100 svarų yra lygu'. ' ' . konvertkg(100, 'kg').' kg';
+
+echo  '<br/>';
+
+echo '30 laipsnių C yra lygu'. ' ' . konvertC(30, 'far').' F';
+echo '<br/>';
+echo '100 laipsnių pagal F yra lygu'. ' ' . konvertC(100, 'cel').' C';
+
+echo '<br/>';
+
 
