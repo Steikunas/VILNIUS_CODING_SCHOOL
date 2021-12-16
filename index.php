@@ -95,8 +95,20 @@ echo '<br/>';
 require_once  'php/phpfailai.php';
 
 $manoFailas = 'index.html';
-$resursas = skaitytiFaila($manoFailas);
+copy($manoFailas, 'libs/indexcopija.html') or die("Could not copy file");
+
+
+$resursas = skaitytiFaila($manoFailas, 'r+');
+
+redaguotiFaila($resursas, 'Bandymas pakeisti faila');
+
 $kiek = filesize($manoFailas);
+
 spausdintiFaila($resursas, $kiek);
+
+copy($manoFailas, 'libs/indexcopija2.html') or die("Could not copy file");
+unlink('indexcopija2.html');
+
+
 
 
