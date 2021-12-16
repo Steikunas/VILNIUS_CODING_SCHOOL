@@ -1,6 +1,6 @@
 <?php
 
-$ceu = [
+/*$ceu = [
     "Italy" => "Rome",
     "Luxembourg" => "Luxembourg",
     "Belgium" => "Brussels",
@@ -89,5 +89,14 @@ echo '<br/>';
 echo '100 laipsnių pagal F yra lygu'. ' ' . konvertC(100, 'cel').' C';
 
 echo '<br/>';
+
+*/
+
+require_once  'php/phpfailai.php';
+
+$manoFailas = 'index.html';
+$resursas = skaitytiFaila($manoFailas);
+$kiek = filesize($manoFailas);
+spausdintiFaila($resursas, $kiek);
 
 
