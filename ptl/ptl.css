@@ -57,6 +57,14 @@ aside {
 main {
     grid-area: c;
 }
+.pradine1 {
+    display: block;
+    alignment: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 picture {text-align: right;}
 
 footer {
